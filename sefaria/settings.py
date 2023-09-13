@@ -316,9 +316,10 @@ CACHES = {
 
 GLOBAL_INTERRUPTING_MESSAGE = None
 
-REMOTE_HOSTS = os.getenv('REMOTE_HOSTS', 'indrajala.com').replace(" ", "")
+REMOTE_HOSTS = os.getenv('REMOTE_HOSTS', 'indrajala.com', 'indrajala-test.onrender.com').replace(" ", "")
 
 LOCAL_HOSTS = [
+    'indrajala-test.onrender.com'
     'indrajala.com',
     'localhost',
     '127.0.0.1',
