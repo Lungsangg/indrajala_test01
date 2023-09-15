@@ -8773,14 +8773,14 @@ body #keyboardInputMaster tbody tr td table tbody tr td.pressed{
 }
 .interface-hebrew #footer{
   direction: rtl;
-  text-align: right;
+  text-align: left;
 }
 .interface-english #footer .int-he {
   display: none;
 }
 .interface-hebrew #footer .int-he {
   display: inline;
-  text-align: right;
+  text-align: left;
 }
 #footerInner {
   max-width: 1000px;
