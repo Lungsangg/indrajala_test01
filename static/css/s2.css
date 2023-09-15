@@ -815,7 +815,7 @@ input.noselect {
   width: max-content;
 }
 .interface-hebrew .header .interfaceLinks .interfaceLinks-menu {
-  left: 0px;
+  right: 0px;
   min-width: 150px;
   width: max-content;
 }
@@ -8772,7 +8772,7 @@ body #keyboardInputMaster tbody tr td table tbody tr td.pressed{
   color: #666;
 }
 .interface-hebrew #footer{
-  direction: ltr;
+  direction: rtl;
   text-align: right;
 }
 .interface-english #footer .int-he {

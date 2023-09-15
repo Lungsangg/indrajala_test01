@@ -24,7 +24,7 @@ const Strings = {
     "Sign up": "འགྲོ་བསྡུ་སྒྲིག་པ།",
 
     // Texts Page
-    "Learn More": "לקריאה נוספת",
+    "Learn More": "མུ་མཐུད་གཟིགས་",
     "Learning Schedules": "לוח לימוד יומי",
     "Teach with Sefaria": "מלמדים עם ספריא",
     "Visualizations": "תרשימים גרפיים",
@@ -469,7 +469,7 @@ const Strings = {
 
     // Footer
     "Connect": "צרו קשר",
-    "Site Language": "שפת האתר",
+    "Site Language": "སྐད་ཡིག",
 
     //Profile
     "Profile": "פרופיל",
