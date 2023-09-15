@@ -42,7 +42,7 @@ const Strings = {
     "People around the world use Sefaria to create and share Torah resources. You're invited to add your voice.": "לומדים ולומדות מכל רחבי העולם משתמשים בספריא כדי ליצור ולשתף מקורות יהודיים. אנו מזמינים אתכם לקחת חלק בשיח זה.",
     "Create with Sefaria": "צרו בעזרת ספריא",
     "Mobile Apps": "יישומון לטלפון הנייד",
-    "Browse the Library": "བདཔེ་མཛོད་དུ་གཟིགས་",
+    "Browse the Library": "དཔེ་མཛོད་དུ་གཟིགས་",
     "Weekly Torah Portion": "פרשת השבוע",
     "All Learning Schedules": "לוחות לימוד נוספים",
     "Sponsor A Day of Learning": "תרמו יום לימוד בספריא",
@@ -230,7 +230,7 @@ const Strings = {
     "Publish your sheet on Sefaria for others to discover.": "פרסמו את דף המקורות בספריא כדי שאחרים יוכלו ללמוד ממנו.",
 
     // Reader Panel
-    "Search" : "חיפוש",
+    "Search" : "འཚོལ་",
     "Search Dictionary": "חיפוש במילון",
     "Search for": "חיפוש",
     "Search for:": "חיפוש:",
@@ -583,7 +583,7 @@ const Strings = {
       "Newest": "הכי חדש",*/
     },
     "Header": {
-      "Texts": "מקורות",
+      "Texts": "ཡིག་མཛོད་",
     },
     "RecentlyPublished": {
       "Load More": "דפי מקורות נוספים",
