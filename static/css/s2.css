@@ -815,7 +815,7 @@ input.noselect {
   width: max-content;
 }
 .interface-hebrew .header .interfaceLinks .interfaceLinks-menu {
-  right: 0px;
+  left: 0px;
   min-width: 150px;
   width: max-content;
 }
@@ -8772,15 +8772,15 @@ body #keyboardInputMaster tbody tr td table tbody tr td.pressed{
   color: #666;
 }
 .interface-hebrew #footer{
-  direction: rtl;
-  text-align: left;
+  direction: ltr;
+  text-align: right;
 }
 .interface-english #footer .int-he {
   display: none;
 }
 .interface-hebrew #footer .int-he {
   display: inline;
-  text-align: left;
+  text-align: right;
 }
 #footerInner {
   max-width: 1000px;
@@ -8796,7 +8796,7 @@ body #keyboardInputMaster tbody tr td table tbody tr td.pressed{
   text-align: left;
 }
 .interface-hebrew #footer .section {
-  text-align: left;
+  text-align: right;
 }
 #footer .section .header {
   color: #000;

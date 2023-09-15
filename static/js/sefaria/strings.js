@@ -238,7 +238,7 @@ const Strings = {
     "Search for Texts or Keywords Here": "חיפוש טקסט או מילות מפתח",
     "Versions": "מהדורות",
     "Version Open": "מהדורה פתוחה",
-    "About": "אודות",
+    "About": "སྐོར་དུ།",
     "Current Version": "מהדורה נוכחית",
     "Current Translation": "תרגום נוכחי",
     "Select Version": "בחירת מהדורה",
@@ -468,7 +468,7 @@ const Strings = {
     "Sorry, there was an error.": "סליחה, ארעה שגיאה",
 
     // Footer
-    "Connect": "צרו קשר",
+    "Connect": "འབྲེལ་གཏུགས་",
     "Site Language": "སྐད་ཡིག",
 
     //Profile
@@ -557,7 +557,7 @@ const Strings = {
     "ConnectionPanelSection":{
       "Related Texts": "מקורות לעיון",
       "Resources": "עזרים",
-      "Tools": "כלים",
+      "Tools": "ལག་ཆས།",
       "Share Link": "שיתוף קישור",
       "More Options": "אפשרויות נוספות",
     },
