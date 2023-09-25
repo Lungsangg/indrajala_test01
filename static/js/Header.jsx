@@ -5,7 +5,6 @@ import Component from 'react-class';
 import classNames  from 'classnames';
 import $  from './sefaria/sefariaJquery';
 import Sefaria  from './sefaria/sefaria';
-import {translate } from "react-translate"
 import {
   SearchButton,
   GlobalWarningMessage,
