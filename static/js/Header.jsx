@@ -40,20 +40,15 @@ class Header extends Component {
       return null;
     }
     const logo = Sefaria.interfaceLang == "hebrew" ?
-      <img src="/static/img/logo-hebrew.png" alt="Sefaria Logo"/> :
-      <img src="/static/img/logo/logo.png" alt="Sefaria Logo"/>;
+      <img src="/static/img/logo.png" alt="Sefaria Logo"/> :
+      <img src="/static/img/logo.png" alt="Sefaria Logo"/>;
 
-      let Texts = function({t}) {
-        return <h1> {t("Texts")} </h1>
-      }
-       
-      Text = translate("bo")(Texts);
-const headerContent = (
+    const headerContent = (
       <>
         <div className="headerNavSection">
           { Sefaria._siteSettings.TORAH_SPECIFIC ?
           <a className="home" href="/" >{logo}</a> : null }
-          <a href="/texts" className="textLink"><InterfaceText context="Header"><Text/></InterfaceText></a>
+          <a href="/texts" className="textLink"><InterfaceText context="Header">Texts</InterfaceText></a>
           <a href="/topics" className="textLink"><InterfaceText>Topics</InterfaceText></a>
           <a href="/community" className="textLink"><InterfaceText>Community</InterfaceText></a>
           <DonateLink classes={"textLink donate"} source={"Header"}><InterfaceText>Donate</InterfaceText></DonateLink>

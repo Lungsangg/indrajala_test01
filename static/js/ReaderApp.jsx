@@ -10,8 +10,6 @@ import EditCollectionPage from './EditCollectionPage';
 import Footer from './Footer';
 import SearchState from './sefaria/searchState';
 import {ContentLanguageContext, AdContext} from './context';
-import { TranslatorProvider} from "react-translate"
-import { translations } from './sefaria/translation';
 import {
   ContestLandingPage,
   RemoteLearningPage,
@@ -431,7 +429,7 @@ class ReaderApp extends Component {
         switch (state.menuOpen) {
           case "navigation":
             var cats   = state.navigationCategories ? state.navigationCategories.join("/") : "";
-            hist.title = cats ? state.navigationCategories.map(Sefaria._).join(", ") + " | " + Sefaria._(siteName) : Sefaria._("Sefaria: a Living Library of Jewish Texts Online");
+            hist.title = cats ? state.navigationCategories.map(Sefaria._).join(", ") + " | " + Sefaria._(siteName) : Sefaria._("Indrajala: a Living Library of Buddhist Texts Online");
             hist.url   = "texts" + (cats ? "/" + cats : "");
             hist.mode  = "navigation";
             break;
@@ -2178,9 +2176,6 @@ toggleSignUpModal(modalContentKind = SignUpModalKind.Default) {
 
     return (
       <AdContext.Provider value={this.getUserContext()}>
-      <TranslatorProvider translations={translations}>
-
-      
       <div id="readerAppWrap">
         {interruptingMessage}
         <div className={classes} onClick={this.handleInAppLinkClick}>
@@ -2191,7 +2186,6 @@ toggleSignUpModal(modalContentKind = SignUpModalKind.Default) {
           <CookiesNotification />
         </div>
       </div>
-      </TranslatorProvider>
       </AdContext.Provider>
     );
   }
